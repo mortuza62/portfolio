@@ -1,0 +1,175 @@
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+/* header Section */
+header img{
+    height: 75px;
+    width: 150px;
+    margin-left: 100px;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.main-menu ul li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+}
+/* First Section */
+#intro-banner{
+    text-align: center;  
+}
+#intro-banner a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(42, 109, 42);
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+#intro-banner h3{
+    font-size: 35px;  
+}
+#intro-banner h1{
+    font-size: 55px;
+}
+#intro-banner{
+    background-image: url(./intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 8rem 0;  
+}
+/* About Me Section */
+#about-me{
+    text-align: center;
+    padding-top: 20px;
+}
+#about-me h3{
+    font-size:35px;
+}
+#about-me p{
+    font-size:25px;
+}
+#about-me-middle-part{
+    display: flex;
+    margin: 10px 0;
+}
+.middel-image{
+    width: 50%;
+}
+#about-me-paragraph{
+    width: 50%;
+    text-align: left;
+    padding-top: 40px; 
+}
+#about-me-paragraph p{
+    font: size 22px;    
+}
+#about-me-paragraph a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(42, 109, 42);
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+/* Service section */
+
+.service-heading{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.service-para{
+    font-size: 25px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.custom-icon-size{
+    font-size: 65px;
+}
+.grid-single-item h1{
+    margin: 15px 0;
+    font-size: 23px;
+}
+/* Work Section */
+.work-heading{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.work-para{
+    font-size: 25px;
+    text-align: center;
+}
+.grid-single-item img{
+    width: 400px; 
+}
+/* Testimonials Section */
+.testimonials-heading{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.testimonials-para{
+    font-size: 25px;
+    text-align: center;
+}
+.testimonials-para-quote{
+    color: gray;
+}
+.grid-single-item h4{
+    color: rgb(74, 69, 69);
+}
+/* Contact me section */
+.contact-me{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+}
+form{
+    margin-left: 665px;
+    font-size: 18px;
+}
+form input{
+    width: 245px;
+    height: 25px;  
+}
+.submit-btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(42, 109, 42);
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+/* Footer section */
+footer{
+    background-color:  black;
+    height: 35px;
+    text-align: right;
+    padding-top: 15px;
+    font-size: 17px;
+    color: white;
+}
